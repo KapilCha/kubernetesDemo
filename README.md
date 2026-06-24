@@ -108,6 +108,11 @@ https://hub.docker.com/repositories/kapilchadockerid
 ## github URL
 https://github.com/KapilCha/kubernetesDemo
 
+## URL for getting 
+http://8.232.84.173:80/products
+## for local
+http://localhost:80/products
+
 
 
 
