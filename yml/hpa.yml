@@ -16,7 +16,13 @@ spec:
   - type: Resource
     resource:
       name: cpu
-
       target:
         type: Utilization
         averageUtilization: 50
+
+  behavior:
+    scaleUp:
+      stabilizationWindowSeconds: 60
+
+    scaleDown:
+      stabilizationWindowSeconds: 120
